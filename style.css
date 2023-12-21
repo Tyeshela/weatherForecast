@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background: #000000;
+}
+
+.container h1{
+    margin-top: 300px;
+    color: rgb(47, 255, 0);
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+    text-shadow: 2px 2px black;
+}
+
+.container p{
+    color: rgb(106, 255, 0);
+    text-shadow: 2px 2px black;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: rgb(20, 92, 20);
+    width: 600px;
+    border-radius: 20px;
+    padding: 0px 20px 50px;
+    margin: 0 auto;
+}
+
+.container p{
+    border: solid rgb(145, 239, 102);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px 50px;
+    background: #171717;
+    box-shadow: 1px 1px 20px 2px rgb(17, 17, 17);
+}
+
+.container input::placeholder{
+    color: lime;
+}
+
+.container input{
+  width: 190px;
+  border-radius: 20px;
+  padding: 10px 15px;
+  background: black;
+  border: solid green;
+  color: green;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.container button{
+  border-radius: 20px;
+  padding: 10px 13px;
+  margin-left: 55px;
+  width: 117px;
+  background: rgb(5, 111, 17);
+  cursor: pointer;
+  color: greenyellow;
+  font-weight: bold;
+  border: solid rgb(0, 0, 0);
+}
+
+.pp{
+  color: lime;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
